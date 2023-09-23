@@ -8,11 +8,14 @@
 - スクリプトプロパティの設定
   - PHANTOMJSCLOUD_ID に PhantomJsCloud api key の値
   - SLACK_OAUTH_TOKEN に Slack の OAuth token の値
+- Slack API との連携
 です。
 
 これらを適切に設定すると、 `main.gs` を実行することで、「さわやか 浜松高塚店」と「さわやか浜松遠鉄店」の混雑状況が取得できます。(※他の店舗を追加する際は、shopURLListsに公式ページの店舗URLを追加すると動作する想定ですが、動作未検証です。)
 
 また、 GAS の設定で定期実行を設定することで、毎時間混雑状況を通知することも可能です。
+
+<img width="1152" alt="image" src="https://github.com/Atsuyoshi-N/sawayaka_wait_notify/assets/26040501/a98981de-2a55-4512-9ba1-ff0e7ff51fca">
 
 ## 参考文献
 ### 使用したさわやかの公式ページ
